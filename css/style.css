@@ -10,7 +10,7 @@ body{
     background-color: #FFFFFF;
 }
 .container{
-    max-width: 1158px;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -242,10 +242,25 @@ letter-spacing: 0.02em;
 }
 
 .section-three{
+    
     background-color: #FFFFFF;
 }
 
+.h-portfolio{
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize; 
+}
 .flex-portfolio{
+    padding: 120px 0 120px 0;
+    gap: 24px;
     display: flex;
     width: 1158px;
     margin-left: auto;
@@ -280,12 +295,15 @@ letter-spacing: 0.32px;
 
 .fotter-fon{
     background-color: #2e2f42;
+    padding: 100px 0;
 }
-.div-fotter{
+.div-container{
     display: flex;
-    width: 1158px; 
+    width: 1158px;
 }
 .logo-f{
+    display: inline-block;
+    margin-bottom: 16px;
     color: var(--IRIS, #4D5AE5);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
