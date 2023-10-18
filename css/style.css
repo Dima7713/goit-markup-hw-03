@@ -55,6 +55,18 @@ margin-right: 76px;
     color: var(--IRIS, #2e2f42);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .header-text-a{
     color: var(--NAVY-BLUE, #2E2F42);
 /* Body Medium */
@@ -115,8 +127,9 @@ background: var(--NAVY-BLUE, #2E2F42);
 }
 
 .text-page-h{
-    max-width: 496px;
-    max-height: 120px;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-family: Roboto;
 font-size: 56px;
@@ -142,7 +155,10 @@ background: var(--IRIS, #4D5AE5);
 .section-content{
     background-color: #FFFFFF;
 }
-
+.content{
+    display: flex;
+    gap: 24px;
+}
 .descrip-title{
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
@@ -180,12 +196,17 @@ line-height: 1.11; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize; 
 }
-
+.img-flex{
+    display: flex;
+    gap: 24px
+    ;
+}
 .our-portfolio{
     background-color: #FFFFFF;
 }
 
 .img{
+    display: block;
     background: var(--WHITE, #FFF);
     }
 .text-h{
@@ -201,6 +222,7 @@ letter-spacing: 0.4px;
 }
 
 .text-p-our-team{
+    padding-bottom: 72px;
     color: var(--SLATE, #434455);
 /* Body */
 font-family: Roboto;
@@ -215,8 +237,15 @@ letter-spacing: 0.02em;
     background-color: #FFFFFF;
 }
 
+.flex-portfolio{
+    display: flex;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .img-down{
+    display: block;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF); 
 }
@@ -245,9 +274,8 @@ letter-spacing: 0.32px;
     background-color: #2e2f42;
 }
 .div-fotter{
-    width: 1440px;
-height: 312px;
-flex-shrink: 0; 
+    display: flex;
+    width: 1158px; 
 }
 .logo-f{
     color: var(--IRIS, #4D5AE5);
@@ -270,6 +298,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase; 
 }
 .footer-text{
+    width: 264px;
     display: block;
     color: #F4F4FD;
 /* Body */
