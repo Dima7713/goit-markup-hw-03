@@ -12,7 +12,7 @@ body{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
 }
 header .container{
     display: flex;
@@ -190,6 +190,7 @@ letter-spacing: 0.02em;
 }
 
 .section-two{
+    padding: 120px 0 120px;
     background-color: #F4F4FD ; 
 }
 .text-our-team{
@@ -206,8 +207,7 @@ text-transform: capitalize;
 }
 .img-flex{
     display: flex;
-    gap: 24px
-    ;
+    gap: 24px;
 }
 .our-portfolio{
     background-color: #FFFFFF;
@@ -218,6 +218,7 @@ text-transform: capitalize;
     background: var(--WHITE, #FFF);
     }
 .text-h{
+    margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 /* Header 3 */
@@ -242,11 +243,14 @@ letter-spacing: 0.02em;
 }
 
 .section-three{
-    
+    padding: 120px 0 120px;
     background-color: #FFFFFF;
 }
-
+.li-portfolio{
+    border-radius: 0px 0px 4px 4px;
+}
 .h-portfolio{
+    margin-bottom: 72px;
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 /* Header 2 */
@@ -260,8 +264,9 @@ text-transform: capitalize;
 }
 .flex-portfolio{
     padding: 120px 0 120px 0;
-    gap: 24px;
     display: flex;
+    flex-wrap: wrap;
+    row-gap:24px;
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
@@ -273,6 +278,7 @@ text-transform: capitalize;
 background: var(--WHITE, #FFF); 
 }
 .text-h-section{
+    
     color: var(--NAVY-BLUE, #2E2F42);
 /* Header 3 */
 font-family: Roboto;
