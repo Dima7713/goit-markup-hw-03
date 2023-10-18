@@ -5,6 +5,7 @@ body{
     background-color: #fff;
 }
 .header-class{
+    padding: 0 15px 0 15px;
     display: flex;
     border-bottom: 1px solid #E7E9FC;
     background-color: #FFFFFF;
@@ -12,7 +13,7 @@ body{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    
 }
 header .container{
     display: flex;
@@ -159,15 +160,22 @@ background: var(--IRIS, #4D5AE5);
     background-color: #404bbf;
 }
 
+.hero-section{
+    padding: 120px 0 120px;
+}
 .section-content{
     background-color: #FFFFFF;
 }
 .content{
-    padding: 120px 0;
     display: flex;
     gap: 24px;
 }
+
+.after-content{
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
 .descrip-title{
+    margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
     font-family: Roboto;
@@ -247,6 +255,7 @@ letter-spacing: 0.02em;
     background-color: #FFFFFF;
 }
 .li-portfolio{
+    width: calc((100% - 48px) / 3);
     border-radius: 0px 0px 4px 4px;
 }
 .h-portfolio{
@@ -266,7 +275,8 @@ text-transform: capitalize;
     padding: 120px 0 120px 0;
     display: flex;
     flex-wrap: wrap;
-    row-gap:24px;
+    row-gap:48px;
+    column-gap: 24px;
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
