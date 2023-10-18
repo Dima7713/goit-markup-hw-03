@@ -217,7 +217,8 @@ text-transform: capitalize;
     display: flex;
     gap: 24px;
 }
-.our-portfolio{
+.our-team{
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
@@ -277,6 +278,7 @@ line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize; 
 }
+
 .flex-portfolio{
     padding: 120px 0 120px 0;
     display: flex;
@@ -287,14 +289,18 @@ text-transform: capitalize;
     margin-left: auto;
     margin-right: auto;
 }
-
+.our-portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .img-down{
     display: block;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF); 
 }
 .text-h-section{
-    
+    margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
 /* Header 3 */
 font-family: Roboto;
