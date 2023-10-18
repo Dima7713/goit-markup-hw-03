@@ -215,11 +215,10 @@ text-transform: capitalize;
 }
 .img-flex{
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
 }
 .our-team{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
