@@ -266,7 +266,6 @@ letter-spacing: 0.02em;
 <!--OUR_PORTFOLIO-->
 
 .section-three{
-    padding: 120px 0 120px 0;
     background-color: #FFFFFF;
 }
 .h-portfolio{
@@ -283,6 +282,7 @@ letter-spacing: 0.72px;
 text-transform: capitalize; 
 }
 .flex-portfolio{
+    padding: 120px 0 120px 0;
     display: flex;
     flex-wrap: wrap;
     row-gap:48px;
