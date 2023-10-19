@@ -199,11 +199,14 @@ letter-spacing: 0.02em;
 }
 
 <!--OUR_TEAM-->
+.background{
 
+}
 .section-two{
-    background-color: #F4F4FD ; 
+    background: var(--CLOUD, #F4F4FD);
 }
 .text-our-team{
+    padding-top: 120px;
     margin-bottom: 72px;
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
@@ -221,8 +224,7 @@ text-transform: capitalize;
     gap: 24px;
 }
 .our-team{
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px; 
     background-color: #FFFFFF;
 }
 
@@ -231,6 +233,7 @@ text-transform: capitalize;
     background: var(--WHITE, #FFF);
 }
 .li-text-hp{
+    max-width: 264px;
         padding-top: 32px;
         padding-bottom: 32px;
 }    
