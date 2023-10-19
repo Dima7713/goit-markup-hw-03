@@ -297,7 +297,7 @@ text-transform: capitalize;
     margin-right: auto;
 }
 .li-portfolio{
-    width: calc((100% - 2 * 24px) / 3);
+    width: calc((100%-(2*(3*24px)))/6);
 }
 .img-down{
     display: block;
