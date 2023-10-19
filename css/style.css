@@ -1,3 +1,4 @@
+<!--HEADER-->
 body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -5,7 +6,6 @@ body{
     background-color: #fff;
 }
 .header-class{
-    
     display: flex;
     border-bottom: 1px solid #E7E9FC;
     background-color: #FFFFFF;
@@ -24,21 +24,11 @@ header .container{
     gap: 40px;
     align-items: center;
 }
-.page-ul{
-    display: flex;
-    gap: 40px;
-}
+
 .navigation{
     gap: 40px;
     display: flex;
     align-items: center;
-}
-
-a{
-    text-decoration: none;
-}
-ul, ol{
-    list-style-type: none;
 }
 .logo{
     color: #4d5ae5;
@@ -54,19 +44,10 @@ margin-right: 76px;
 .logo-studio{
     color: var(--IRIS, #2e2f42);
 }
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+.page-ul{
+    display: flex;
+    gap: 40px;
+}
 .header-text-a{
     color: var(--NAVY-BLUE, #2E2F42);
 /* Body Medium */
@@ -81,6 +62,16 @@ padding-bottom: 24px;
 .header-ac:hover, .header-ac:focus{
     color: #404bbf; 
 }
+.adress{
+    margin-left:auto;
+    gap: 40px;
+    align-self: flex-end;
+    font-size: normal;
+}
+.contact{
+    display: flex;
+    gap: 40px;
+}
 .header-contact{
     color: var(--SLATE, #434455);
 /* Body */
@@ -94,16 +85,15 @@ letter-spacing: 0.02em;
 .header-contact:hover, .header-contact:focus{
    color:#404bbf;
 }
-.adress{
-    margin-left:auto;
-    gap: 40px;
-    align-self: flex-end;
-    font-size: normal;
+a{
+    text-decoration: none;
 }
-.contact{
-    display: flex;
-    gap: 40px;
+ul, ol{
+    list-style-type: none;
 }
+
+<!--MANE HERO-->
+
 .page-nav{
     color: var(#2E2F42);
 font-size: 16px;
@@ -165,11 +155,23 @@ background: var(--IRIS, #4D5AE5);
 .section-content{
     background-color: #FFFFFF;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 .content{
     display: flex;
     gap: 24px;
 }
-
 .after-content{
     width: calc((100% - 72px) / 4);
 }
@@ -184,7 +186,6 @@ background: var(--IRIS, #4D5AE5);
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em; 
 }
-
 .title-descrip{
     color: var(--SLATE, #434455);
 /* Body */
@@ -195,6 +196,8 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em; 
 }
+
+<!--OUR_TEAM-->
 
 .section-two{
     padding: 120px 0 120px;
@@ -218,7 +221,7 @@ text-transform: capitalize;
     gap: 24px;
 }
 .our-team{
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
@@ -226,7 +229,11 @@ text-transform: capitalize;
 .img{
     display: block;
     background: var(--WHITE, #FFF);
-    }
+}
+.li-text-hp{
+        padding-top: 32px;
+        padding-bottom: 32px;
+}    
 .text-h{
     margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
@@ -239,7 +246,6 @@ font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px; 
 }
-
 .text-p-our-team{
     text-align: center;
     color: var(--SLATE, #434455);
@@ -252,17 +258,11 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em; 
 }
 
+<!--OUR_PORTFOLIO-->
+
 .section-three{
     padding: 120px 0 120px;
     background-color: #FFFFFF;
-}
-.li-portfolio{
-    width: calc((100% - 48px) / 3);
-}
-
-.li-text-hp{
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .h-portfolio{
     margin-bottom: 72px;
@@ -277,7 +277,6 @@ line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize; 
 }
-
 .flex-portfolio{
     padding: 120px 0 120px 0;
     display: flex;
@@ -288,15 +287,18 @@ text-transform: capitalize;
     margin-left: auto;
     margin-right: auto;
 }
-.our-portfolio{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
+.li-portfolio{
+    width: calc((100% - 48px) / 3);
 }
 .img-down{
     display: block;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF); 
+}
+.our-portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .text-h-section{
     margin-bottom: 8px;
@@ -319,6 +321,8 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px; 
 }
+
+<!--FOTTER-->
 
 .fotter-fon{
     background-color: #2e2f42;
